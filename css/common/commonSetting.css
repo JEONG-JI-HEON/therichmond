@@ -1,0 +1,79 @@
+/* common */
+section{
+  position: relative;
+}
+
+
+h4{
+  font-size: 1.563rem;
+  font-weight: 400;
+  color: #111;
+}
+
+h2{
+  font-size: 2.813rem;
+  font-weight: bold;
+  color: #111;
+}
+
+p{
+  font-size: 1.063rem;
+  color: #777;
+}
+
+.center{
+  text-align: center;
+}
+
+.p30{
+  padding-bottom: 30px;
+}
+
+.p50{
+  padding-bottom: 50px;
+}
+
+.w100{
+  width: 100%;
+  padding: 0 70px;
+  box-sizing: border-box;
+}
+.w1200{
+  width: 1200px;
+  margin: 0 auto;
+}
+/* common */
+/* 1500px */
+@media(max-width: 1500px){
+  html{
+    font-size: 14px; /* 폰트 rem의 기준을 바꿈 (기본 16)*/
+  }
+  .w100{
+    padding: 0 40px;
+  }
+  #gnb>ul>li{
+    padding: 0 15px;
+    margin: 0 ;
+  }
+}
+
+/* 1500px */
+/* 1200px */
+@media (max-width: 1200px){
+  .w1200{
+    width: 100%;
+  }
+}
+/* 1200px */
+
+/* 1024px */
+@media (max-width: 1024px){
+  html {
+    font-size: 12px;
+  }
+
+  .w100{
+    padding: 0 20px;
+  }
+}
+/* 1024px */
